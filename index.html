@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Página de Verificação</title>
+</head>
+<body>
+    <div class="star-container"></div>
+    <div class="square-container">
+        <header>
+            <div>
+                <h1>Verificador de números</h1>
+                <h3>Informe os números nos campos respectivos A e B para realizar a verificação!</h3>
+                <h4>A > B</h4>
+            </div>
+        </header>
+        <section id="section-body">
+            <div id="conteiner">
+                <form id="number-form">
+                    <nav id="numbers">
+                        <ul>
+                            <li>
+                                <input type="text" placeholder="Informe o número A" id="number-A" required>
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Informe o número B" id="number-B" required>
+                            </li>
+                            <li>
+                                <button type="submit">Calcular</button>
+                                <button type="reset">Resetar</button>
+                            </li>
+                        </ul>
+                    </nav>
+                </form>
+            </div>
+        </section>
+        <p><div id="message" style="display: none;"></div></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
